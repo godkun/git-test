@@ -18,17 +18,7 @@ App({
      * */
     onLaunch: function (options) {
         console.log(options.scene);
-        if (options) {
-            if (options.scene == 1036) {
-                this.globalData.canLaunchApp = true;
-            } else if (options.scene == 1089 || options.scene == 1090) {
 
-            } else {
-                this.globalData.canLaunchApp = false;
-            }
-        } else {
-            this.globalData.canLaunchApp = false;
-        }
 
         saInit();
     },
