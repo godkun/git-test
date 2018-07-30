@@ -24,17 +24,6 @@ App({
     },
 
     onShow: function (options) {
-        if (options) {
-            if (options.scene == 1036) {
-                this.globalData.canLaunchApp = true;
-            } else if (options.scene == 1089 || options.scene == 1090) {
-
-            } else {
-                this.globalData.canLaunchApp = false;
-            }
-        } else {
-            this.globalData.canLaunchApp = false;
-        }
         if (this.globalData.isFirst) {
             this.globalData.isFirst = false;
             return;
