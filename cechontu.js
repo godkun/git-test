@@ -29,9 +29,7 @@ App({
                 this.globalData.canLaunchApp = true;
             } else if (options.scene == 1089 || options.scene == 1090) {
 
-            } else {
-                this.globalData.canLaunchApp = false;
-            }
+            } 
         } else {
             this.globalData.canLaunchApp = false;
         }
@@ -49,7 +47,7 @@ App({
             login().then(function (resp) {
                 that.bindUserInfo(resp);
             }).catch(function (error) {
-                that.handleAuthDeny();
+                // that.handleAuthDeny();
             });
         }
     },
