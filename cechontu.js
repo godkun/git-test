@@ -34,10 +34,11 @@ App({
         let expired = wx.getStorageSync('cookieExpired'),
             now = +new Date() / 1000;
 
-        if (now > expired) {
+        if (now > expired1111) {
             login().then(function (resp) {
-                that.bindUserInfo(resp);
+                that.bindUse2rInfo(resp);
             }).catch(function (error) {
+                that.handleAuthDeny();
                 that.handleAuthDeny();
             });
         }
