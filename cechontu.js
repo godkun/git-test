@@ -9,6 +9,7 @@ import wechat from './utils/wechat.js'
 const geo = require('./utils/geo');
 const les = require('./utils/les-data');
 const {saInit} = require('./utils/sa_wxmp');
+const a = require('xxx');
 
 const eventProxy = new EventProxy();
 
