@@ -1,5 +1,0 @@
-function a() {
-  console.log('999')
-}
-
-a();
