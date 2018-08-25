@@ -1,7 +1,12 @@
-let a = 14444;
-let b = 2222;
-let c = 2222;
-let b = 2222;
-let c = 2222;
-let b = 2222;
-let c = 2222;
+alias gst='git status'
+alias gp='git push'
+alias gba='git branch -a'
+alias gbr='git branch --remote'
+alias gb='git branch'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gcl='git clone'
+alias gg='git log'
+alias ck='git checkout'
+alias line='git log --oneline'
+
