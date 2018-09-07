@@ -9,4 +9,9 @@ alias gcl='git clone'
 alias gg='git log'
 alias ck='git checkout'
 alias line='git log --oneline'
+alias gcl='git clone'
+alias gg='git log'
+alias ck='git checkout'
+alias line='git log --oneline'
+
 
